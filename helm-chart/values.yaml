@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: 412268502663.dkr.ecr.ap-south-1.amazonaws.com/gitops-project
+  tag: v1
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30007
